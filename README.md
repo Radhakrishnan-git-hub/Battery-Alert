@@ -9,13 +9,19 @@ Steps to Follow :
 5. check wthether the location of "BatteryAlert.ps1" is correctly mentioned in "Runsilent.vbs"
 6. open task scheduler using start menu
 7. create task and follow settings like the images 0 to 5
+
    "0.png" - click create task
+   
    "1.png" - General tab - give your preferred name
+   
    "2.png" - Triggers tab - clcik new - select daily - give any time - recur 1 days - repeat task every 30 mins - if you want you can change time value to 30 mins or 1 hr
+   
    "3.png" - Actions tab" - click new - start a program - Enter "wscript.exe" in the box - Add the file location of "Runsilent.vbs" in arguments box
+   
    "4.png" & "5.png"- select these settings
-8. close task scheduler
-9. that's all - it will now run during charging and notifies when your charge reached above 98%
+   
+9. close task scheduler
+10. that's all - it will now run during charging and notifies when your charge reached above 98%
 
 Extras :
 1. if you want to change battery percentage alert value to any other value other than 98 percentage then change value in the "BatteryAlert.ps1"
