@@ -5,7 +5,7 @@ Steps to Follow :
 1. download and extract "Batterypercentage" file - it contains Readme file, Battery.rar, 6 images
 2. extract "battery.rar" file which is inside "Batterypercentage" folder and copy this to your local drive - it contatins Runsilent.vbs & BatteryAlert.ps1
 3. get the path of "BatteryAlert.ps1"
-4. edit "Runsilent.vbs" on notepad and change "C:\Battery\BatteryAlert.ps1" with the location your copied location
+4. edit "Runsilent.vbs" on notepad and change "C:\Battery\BatteryAlert.ps1" with the location of your copied location
 5. check wthether the location of "BatteryAlert.ps1" is correctly mentioned in "Runsilent.vbs"
 6. open task scheduler using start menu
 7. create task and follow settings like the images 0 to 5
