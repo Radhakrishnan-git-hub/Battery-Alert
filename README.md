@@ -25,10 +25,15 @@ Steps to Follow :
 
 Extras :
 1. if you want to change battery percentage alert value to any other value other than 98 percentage then change value in the "BatteryAlert.ps1"
+
    "**98**" is the checking value change this to your preferred value
+
    "~ge" means "greater than or equal to"
+
    "~gt" means "greater than"
+
    "~le" means "less than or equal to"
+
    "~lt" means "less than"
+
    "~eq" means "equal to"
-   
